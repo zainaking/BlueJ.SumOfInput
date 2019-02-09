@@ -8,14 +8,21 @@ public class Main {
    
 
     public static void main(String[] args){
-      int a=0;
+     Scanner scanner = new Scanner(System.in);
+     System.out.println(" write number");
+    
+      int input= scanner.nextInt();
+      int sum=0;
+    
+     
+     for(int count=0; count<=input; count++){
+         sum = sum + count;
+        }
+ 
       
      
-      Scanner in = new Scanner(System.in);
      
-      System.out.println(" write number");
-      a = in.nextInt();
-      System.out.println(a+1);
+      System.out.println(sum+1);
       
       
       
